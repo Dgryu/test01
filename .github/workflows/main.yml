@@ -22,7 +22,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Line Test
         run:  |
-              Line=`cat ./line.txt |wc -l`
+              Line=`cat ./hello_2.txt |wc -l`
               sum=$(($Line+1))
               echo "Count Line="$sum
               result=$(($sum%2))
