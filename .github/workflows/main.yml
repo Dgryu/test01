@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Line Check
-        run: run:  |
+        run: |
               Line=`cat ./hello_2.txt |wc -l`
               sum=$(($Line))
               echo "Count Line="$sum
