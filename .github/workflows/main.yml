@@ -41,5 +41,5 @@ jobs:
               then
                   echo "YES"
               else
-                  echi "NO"
+                  echo "NO"
               fi
